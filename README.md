@@ -20,7 +20,7 @@ A lightweight C++ tool that allows you to encrypt and decrypt messages for secur
 
 1. Clone the repository
 ```bash
-git clone [https://github.com/owaseraph/SecretChat.git](https://github.com/owaseraph/SecretChat.git)
+git clone https://github.com/owaseraph/SecretChat.git
 ```
 
 2. Create build directory
