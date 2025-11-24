@@ -1,0 +1,30 @@
+# Build directories
+build/
+dist/
+out/
+target/
+
+# Compiled files
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.o
+*.obj
+*.pyc
+*.pyo
+
+# Build artifacts
+*.log
+*.tmp
+*.cache
+
+# IDE/Editor build files
+.vscode/
+.idea/
+*.iml
+
+# Dependency directories
+node_modules/
+vendor/
