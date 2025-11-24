@@ -1,16 +1,16 @@
-# SecureChat - Encryption Tool
+# 🔒 SecureChat - Encryption Tool 💬
 
 A lightweight C++ tool that allows you to encrypt and decrypt messages for secure communication over any chat application.
 
 
-## Features
+## ✨ Features
 
- * **Custom Encryption**: Uses a custom XOR stream cipher with key rotation and Base64 encoding.
- * **Clipboard Integration**: Automatically copies encrypted messages to your clipboard for quick pasting.
- * **Zero-Trace**: No text saved to disk; everything happens in memory.
- * **Cross-Platform**: Runs on Windows, Linux, and macOS.
+ * **🛠️ Custom Encryption:** Uses a custom XOR stream cipher with key rotation and Base64 encoding.
+ * **📋 Clipboard Integration:** Automatically copies encrypted messages to your clipboard for quick pasting.
+ * **👻 Zero-Trace:** No text saved to disk; everything happens in memory.
+ * **💻 Cross-Platform:** Runs on Windows, Linux, and macOS.
 
-## Build Instructions
+## 🏗️ Build Instructions
 
  ### Prerequisites
 * C++ Compiler (MinGW, MSVC, Clang)
@@ -40,15 +40,15 @@ cmake --build .
 ./Debug/SecureChat.exe
 ```
 
-## Usage
+## 🚀 Usage
 1. Run the application
-2. Enter a **Shared Password** (must be the same as your recipient)
-3. **To Send**
+2. Enter a **Shared Password 🔑** (must be the same as your recipient)
+3. **📤 To Send (Encrypt)**
     * Select Option `1`.
     * Type your message.
     * The tool will encrypt it and **automatically copy the result to your clipboard**.
     * Paste `CTRL+V` it into your app.
-4. **To Receive**
+4. **📥 To Receive (Decrypt)**
     * Select Option `2`.
     * Paste the encrypted code into the terminal.
     * The tool will decrypt it and **show it into the terminal**.
